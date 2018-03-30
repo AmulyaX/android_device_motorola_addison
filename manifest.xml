@@ -166,7 +166,11 @@
         </interface>
     </hal>
     <hal format="hidl">
+<<<<<<< HEAD
         <name>vendor.qti.hardware.radio.am</name>
+=======
+        <name>android.hardware.radio</name>
+>>>>>>> 57d47e9... Fix manifest.xml
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
@@ -232,6 +236,7 @@
             <name>IQtiRadio</name>
             <instance>slot1</instance>
             <instance>slot2</instance>
+<<<<<<< HEAD
         </interface>
     </hal>
     <hal format="hidl">
@@ -262,6 +267,8 @@
             <name>IUimRemoteServiceServer</name>
             <instance>uimRemoteServer0</instance>
             <instance>uimRemoteServer1</instance>
+=======
+>>>>>>> 57d47e9... Fix manifest.xml
         </interface>
     </hal>
 </manifest>
