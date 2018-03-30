@@ -57,11 +57,8 @@ on post-fs
     chmod 0755 /sys/kernel/debug/tracing
 
 on init
-<<<<<<< HEAD
-=======
-    
 
->>>>>>> 3cc5da4... shim: Transition to TARGET_LD_SHIM_LIBS
+
     write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
 
     # Set permissions for persist partition
