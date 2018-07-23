@@ -61,6 +61,7 @@
 
         <SwitchPreference
             android:key="fp_sleep"
+	    android:defaultValue="true"
             android:title="@string/fingerprint_sleep_title"
             android:summary="@string/fingerprint_sleep_summary" />
 
